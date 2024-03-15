@@ -1,12 +1,11 @@
 # The-Higgs-Boson-Challenge
-The famous Higgs Boson Challenge
 
-The Higgs Boson particle was discovered in 2013. A key property of any particle is how often it decays into other particles. ATLAS is a particle physics experiment taking place at the Large Hadron Collider at CERN that searches for new particles and processes using head-on collisions of protons of extraordinarily high energy. The ATLAS experiment has recently observed a signal of the Higgs boson decaying into two tau particles, but this decay is a small signal buried in background noise. 
+## Overview
+The Higgs Boson Challenge revolves around enhancing the selection procedure for identifying the decay of the Higgs boson particle into two tau particles. This project is based on data from the ATLAS experiment at CERN, which explores new particles and processes through high-energy proton collisions.
 
-The goal of the project is to improve the procedure that produces the selection region. We provide a training set with signal/background labels and with weights, a test set (without labels and weights), and a formal objective representing an approximation of the median significance (AMS) of the counting test. 
+The discovery of the Higgs Boson in 2013 marked a significant breakthrough in particle physics. However, accurately detecting its decay amidst background noise remains a formidable challenge.
 
-The objective is a function of the weights of selected events. It is expected that significant improvements are possible by revisiting some of the ad hoc choices in the standard procedure, or by incorporating the objective function or a surrogate into the classifier design.
+The project aims to refine the selection process by improving existing methodologies or introducing novel approaches. A training set containing signal/background labels and weights, along with a test set devoid of labels and weights, is provided. The evaluation metric for this challenge is based on the approximation of the median significance (AMS) of the counting test. The objective function is a function of the weights of selected events.
 
-The data: https://www.kaggle.com/c/higgs-boson/overview
-
-About the data : https://higgsml.lal.in2p3.fr/files/2014/04/documentation_v1.8.pdf
+## Data
+The dataset for this project can be accessed on Kaggle at [Higgs Boson Challenge](https://www.kaggle.com/c/higgs-boson/overview). For detailed information about the dataset, refer to the [documentation](https://higgsml.lal.in2p3.fr/files/2014/04/documentation_v1.8.pdf).
